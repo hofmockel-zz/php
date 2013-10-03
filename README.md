@@ -12,7 +12,7 @@ Disable the php filter module in one of the following ways:
 * drush dis php
 
 cd DRUPAL_ROOT/sites/all/modules
-git clone https://github.com/ISUITC/php.git
+git clone https://github.com/hofmockel/php.git
 !you do not need to enable the module!
 
 How it works

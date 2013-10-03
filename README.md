@@ -6,7 +6,7 @@ This module when installed at sites/all/php will prevent the user from changing 
 Installation
 -------------
 
-disable the php filter module in one of the following ways:
+Disable the php filter module in one of the following ways:
 * Drupal interface - http://DRUPAL_ROOT/admin/modules
 * drush dis php
 
@@ -20,6 +20,9 @@ How it works
 First, it takes over the name space of the core php filter module.
 Second, there are no function conflicts because the module has no functions.
 Third, it leverages the "required = TRUE" stanza in the php.info that disables the ability to change the state of the module.
+
+Warning
+-------
 
 If the core php filter module is on when you place this module in your code base it can not be turned off through the interface.
 This module does not disable the module but locks its current enabled state.

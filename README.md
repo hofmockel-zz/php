@@ -1,7 +1,7 @@
 php
 ===
 
-This module when installed at sites/all/php will prevent the user from changing the state of the php filter module.
+This module when installed at sites/all/php will prevent the user from changing the state of the php filter module through the Drupal interface.
 This may be the smallest and most useful module ever!
 
 Installation

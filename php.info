@@ -4,3 +4,4 @@ package = Core
 version = VERSION
 core = 7.x
 required = TRUE
+hidden = TRUE

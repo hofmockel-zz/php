@@ -1,0 +1,6 @@
+name = PHP filter KILLER HAS BEEN INSTALLED
+description = Stops users from being able to enable the core PHP Filter module through this interface.
+package = Core
+version = VERSION
+core = 7.x
+required = TRUE

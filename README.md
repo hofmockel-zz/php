@@ -26,6 +26,8 @@ How it works
 4. It levarages the "hidden = TRUE" to remove the module listing entirely from the module listing page.
 5. It does not hack core!
 
+I don't see why this will not work with other core modules as well.
+
 Warning
 -------
 
